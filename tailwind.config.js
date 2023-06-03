@@ -19,7 +19,11 @@ module.exports = {
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",
-      }
+      },
+      backgroundColor: theme => ({
+        ...theme('colors'),
+        'primary': "#CC2D4A",
+      })
     }
   },
   plugins: [],
