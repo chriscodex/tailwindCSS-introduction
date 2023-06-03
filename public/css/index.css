@@ -529,3 +529,8 @@ video {
 .w-64 {
   width: 16rem;
 }
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
+}
