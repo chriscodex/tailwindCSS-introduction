@@ -23,6 +23,8 @@ module.exports = {
       backgroundColor: theme => ({
         ...theme('colors'),
         'primary': "#CC2D4A",
+        'secondary': "#8FA206",
+        'terciary': "#61AEC9",
       })
     }
   },
