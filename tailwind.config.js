@@ -30,8 +30,10 @@ module.exports = {
         'primary': "#CC2D4A",
         'secondary': "#8FA206",
         'terciary': "#61AEC9",
+      },
+      fontFamily: {
+        Montserrat: ['"Montserrat"', "sans-serif"],
       }
-    }
   },
   plugins: [],
 }
