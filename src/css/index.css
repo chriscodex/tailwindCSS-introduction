@@ -17,3 +17,7 @@
 .FaqsTitle {
   @apply text-xl font-medium text-primary
 }
+
+.FaqsDescription {
+  @apply text-base pt-2
+}
