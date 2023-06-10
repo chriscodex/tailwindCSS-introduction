@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch /public/index.html --exec \"browser-sync start --server --files '/public/index.html'\"",
-    "tailwind": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch",
+    "tw:minify": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "nodemon": "^2.0.22",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
