@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./public/index.html', './src/css/index.css'],
+  content: ["./public/index.html", "./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -35,6 +36,8 @@ module.exports = {
         Montserrat: ['"Montserrat"', 'sans-serif'],
       },
     },
-    plugins: [],
+    plugins: [
+      require('tailwind-scrollbar-hide')
+    ],
   },
 };
