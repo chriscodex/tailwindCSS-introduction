@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch /public/index.html --exec \"browser-sync start --server --files '/public/index.html'\"",
     "tailwind": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch",
-    "tw:minify": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify"
+    "tw:minify": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify",
+    "deploy": "gh-pages -d ./"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,11 @@
   "bugs": {
     "url": "https://github.com/chriscodex/tailwindCSS-introduction/issues"
   },
-  "homepage": "https://github.com/chriscodex/tailwindCSS-introduction#readme",
+  "homepage": "https://chriscodex.github.io/tailwindCSS-introduction",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "browser-sync": "^2.29.3",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
